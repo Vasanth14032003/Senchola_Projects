@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Registration Form</title>
+</head>
+<body>
+	<form align="center">
+		<label for="name">Name: &emsp; &emsp; &ensp;</label>
+		<input type="text" name="name" id="name" required>
+
+		<br>
+		<br>
+
+		<label for="email">Email: &ensp; &ensp; &nbsp;&nbsp; &nbsp; &nbsp;</label>
+		<input type="email" name="email" id="email" required>
+
+		<br>
+		<br>
+
+		<label for="password">Password: &emsp; &ensp;</label>
+		<input type="password" name="password" id="password" required>
+
+		<br>
+		<br>
+
+		<label for="number">Phone Number:</label>
+		<input type="number" name="number" id="number" required>
+
+		<br>
+		<br>
+
+		<label for="gender">Gender: &emsp;</label>
+		Male:
+		<input type="radio" name="gender" value="female" >
+		Female:
+		<input type="radio" name="gender" value="female">
+		Other:
+		<input type="radio" name="gender" value="other">
+		<br>
+		<br>
+
+		<label for="language" >language: &emsp; &emsp;</label>
+		<input type="text" name="language" placeholder="Select language" id="language" list="lang_list">
+
+		<datalist id="lang_list">
+			<option>Tamil</option>
+			<option>English</option>
+			<option>German</option>
+			<option>French</option>
+			<option>Japanese</option>
+		</datalist>
+
+		<br>
+		<br>
+
+		<label for="zipcode">Zip Code: &emsp; &emsp;</label>
+		<input type="number" name="zipcode" id="zipcode">
+		
+		<br>
+		<br>
+
+		<label for="about" >About:&emsp; &emsp; &ensp;</label>
+		<textarea id="about" rows="4" cols="30" placeholder="Write about yourself..."></textarea>
+
+		<br>
+		<br>
+
+		<input type="button" name="Register" value="Register">
+        <input type="button" name="Reset" value="Reset">
+
+
+	</form>
+
+</body>
+</html>
